@@ -1,0 +1,41 @@
+Preliminary Comments:
+1.	Website Design & Structure Preference- I prefer the earlier website design, colors, etc. I hope this is only for the literature, and the format and structure 
+2.	Font Size for TFF Logo
+o	The font size for the TFF logo on all pages needs to be increased. The logo and name are not displaying clearly at the top of the pages.
+3.	Avoid Using 'AI' as a Term
+o	As discussed, we will avoid using 'AI' as a term on the site. Instead, use the following alternatives:
+	Technology-Enabled Solutions
+	System-Driven Solutions
+	Advanced Automation Systems
+	Smart Legal Systems
+	Intelligent Legal Platforms
+	Machine Learning-Powered Solutions
+	Digital Legal Solutions
+	Next-Gen Legal Technology
+	Automated Legal Tools
+4.	Landing Page Heading
+o	How about changing the landing page heading to: “Your Strategic Partner for Cutting-Edge Corporate Legal Solutions”?
+5.	Landing Page Description
+o	Update the landing page description to align with:
+“Top-Tier Legal Services in Dubai & Fractional General Counsel Across the Middle East, Africa, and Asia. 25+ Years of Expertise in Corporate, Commercial, and Contract Law, Cross-Border Solutions, Foreign Investment Advisory, and Advising Startups, SMEs, Government Projects, Real Estate, Hospitality, Tourism, and Technology Companies. Specializing in Technology-Enabled and System-Driven Legal Solutions.”
+6.	Profile Update
+o	For "My Profile," please use Founder, CEO & Chief Legal Counsel.
+o	Remove the "work experience" section and replace it with a profile description that does not include a history of work.
+7.	Articles Section
+o	Add my name as the author of articles (do not list "TFF Legal Team" since TFF Legal did not exist in 2024).
+8.	Legal Resource Section
+o	Let's remove the Legal Resource section for now. We can add it later when we have a critical mass of content or if the firm grows with more team members. For now, keep it simple with just articles.
+9.	Privacy & Terms of Use
+o	Please remove the privacy email, phone, and address. Only the info@tfflegal.com email should remain.
+10.	Firm Name Clarification
+o	The firm’s name is Thilak Fons & Farabi Legal FZ LLE, not LLC.
+o	Use TFF Legal as the name throughout the site except in legal notices sections. For marketing and client-facing sections, always use TFF Legal.
+11.	Contact Us Section
+•	Update the Contact Us section to:
+o	info@tfflegal.com
+o	jitheesh@tfflegal.com
+(Replace @jthilak.com)
+11.	Location
+•	Always list the location as UAE. Do not mention Dubai specifically, as we are a Fujairah-registered company with no offices outside Fujairah. So, refer to the location as UAE.
+12.	Cross-Border Expertise
+•	The mention of Cross-Border Expertise (International transactions and compliance) is repetitive. We should focus more on Corporate, Commercial, Contracts, Investment Structures, Compliance, and related areas.
