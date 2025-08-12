@@ -1,99 +1,118 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { Button } from '@/components/ui/button'
-import { EmailCapture } from '@/components/ui/EmailCapture'
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata = {
-  title: 'Publications & Articles - TFF Legal | Legal Insights & Industry Analysis',
-  description: 'Latest legal publications, articles, and insights from TFF Legal experts on corporate law, real estate, hospitality, and technology across the Middle East.',
-  keywords: 'legal articles, publications TFF Legal, legal insights Middle East, corporate law analysis, legal expertise UAE',
-}
+  title:
+    "Publications & Articles - TFF Legal | Legal Insights & Industry Analysis",
+  description:
+    "Latest legal publications, articles, and insights from TFF Legal experts on corporate law, real estate, hospitality, and technology across the Middle East.",
+  keywords:
+    "legal articles, publications TFF Legal, legal insights Middle East, corporate law analysis, legal expertise UAE",
+};
 
 const featuredArticles = [
   {
     id: 1,
     title: "The Future of Legal Tech in the Middle East",
-    excerpt: "Exploring how AI and technology are transforming legal services across the region, from contract automation to predictive analytics.",
+    excerpt:
+      "Exploring how AI and technology are transforming legal services across the region, from contract automation to predictive analytics.",
     author: "Jitheesh Thilak",
     date: "December 2024",
     category: "Technology",
     readTime: "5 min read",
     image: "/media/office consult.png",
-    featured: true
+    featured: true,
   },
   {
     id: 2,
     title: "Sustainable Business Practices: A Legal Perspective",
-    excerpt: "Understanding ESG compliance requirements and how businesses can integrate sustainability into their legal frameworks.",
+    excerpt:
+      "Understanding ESG compliance requirements and how businesses can integrate sustainability into their legal frameworks.",
     author: "Jitheesh Thilak",
     date: "November 2024",
     category: "ESG & Sustainability",
     readTime: "7 min read",
-    image: "/media/consultingmeetingroom.png",
-    featured: true
+    image: "/media/sustainable.jpg",
+    featured: true,
   },
   {
     id: 3,
     title: "Cross-Border Investment in the GCC: Legal Considerations",
-    excerpt: "Key legal aspects for international investors looking to establish operations in Gulf Cooperation Council countries.",
+    excerpt:
+      "Key legal aspects for international investors looking to establish operations in Gulf Cooperation Council countries.",
     author: "Jitheesh Thilak",
     date: "October 2024",
     category: "Corporate Law",
     readTime: "6 min read",
-    image: "/media/jitheeshconsultingclient.png",
-    featured: false
-  }
-]
+    image: "/media/crossborder.jpg",
+    featured: false,
+  },
+];
 
 const articles = [
   {
     id: 4,
     title: "Hospitality Development Agreements: Best Practices",
-    excerpt: "Essential considerations for hotel development projects in the Middle East, covering management agreements, branding, and operational structures.",
+    excerpt:
+      "Essential considerations for hotel development projects in the Middle East, covering management agreements, branding, and operational structures.",
     author: "Jitheesh Thilak",
     date: "September 2024",
     category: "Hospitality",
-    readTime: "8 min read"
+    readTime: "8 min read",
   },
   {
     id: 5,
     title: "Real Estate Tokenization: Regulatory Framework",
-    excerpt: "Comprehensive analysis of the regulatory landscape for real estate tokenization and digital asset investments in the UAE.",
+    excerpt:
+      "Comprehensive analysis of the regulatory landscape for real estate tokenization and digital asset investments in the UAE.",
     author: "Jitheesh Thilak",
     date: "August 2024",
     category: "Real Estate",
-    readTime: "10 min read"
+    readTime: "10 min read",
   },
   {
     id: 6,
     title: "Fractional General Counsel: The Strategic Advantage",
-    excerpt: "How businesses can leverage fractional legal leadership to optimize costs while maintaining high-quality legal support.",
+    excerpt:
+      "How businesses can leverage fractional legal leadership to optimize costs while maintaining high-quality legal support.",
     author: "Jitheesh Thilak",
     date: "July 2024",
     category: "Corporate Strategy",
-    readTime: "4 min read"
+    readTime: "4 min read",
   },
   {
     id: 7,
     title: "Data Protection in the Digital Age: MENA Compliance",
-    excerpt: "Navigating data protection requirements across Middle East and North Africa jurisdictions for technology companies.",
+    excerpt:
+      "Navigating data protection requirements across Middle East and North Africa jurisdictions for technology companies.",
     author: "Jitheesh Thilak",
     date: "June 2024",
     category: "Technology",
-    readTime: "6 min read"
+    readTime: "6 min read",
   },
   {
     id: 8,
     title: "Infrastructure PPP Projects: Legal Structure Optimization",
-    excerpt: "Key legal considerations for structuring public-private partnership agreements in large-scale infrastructure development.",
+    excerpt:
+      "Key legal considerations for structuring public-private partnership agreements in large-scale infrastructure development.",
     author: "Jitheesh Thilak",
     date: "May 2024",
     category: "Infrastructure",
-    readTime: "9 min read"
-  }
-]
+    readTime: "9 min read",
+  },
+];
 
-const categories = ["All", "Technology", "Corporate Law", "Real Estate", "Hospitality", "ESG & Sustainability", "Infrastructure"]
+const categories = [
+  "All",
+  "Technology",
+  "Corporate Law",
+  "Real Estate",
+  "Hospitality",
+  "ESG & Sustainability",
+  "Infrastructure",
+];
 
 export default function PublicationsPage() {
   return (
@@ -106,7 +125,8 @@ export default function PublicationsPage() {
               Publications & Insights
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Expert legal analysis, industry insights, and thought leadership from TFF Legal&apos;s experienced team
+              Expert legal analysis, industry insights, and thought leadership
+              from TFF Legal&apos;s experienced team
             </p>
             <div className="max-w-md mx-auto">
               <EmailCapture
@@ -146,7 +166,9 @@ export default function PublicationsPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Articles</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Featured Articles
+            </h2>
             <div className="w-24 h-1 bg-blue-600"></div>
           </div>
 
@@ -204,7 +226,10 @@ export default function PublicationsPage() {
 
             {/* Secondary Featured Articles */}
             {featuredArticles.slice(1, 3).map((article) => (
-              <article key={article.id} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
+              <article
+                key={article.id}
+                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden"
+              >
                 <div className="relative h-48">
                   <Image
                     src={article.image}
@@ -224,14 +249,14 @@ export default function PublicationsPage() {
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
                     {article.title}
                   </h3>
-                  <p className="text-gray-600 mb-4">
-                    {article.excerpt}
-                  </p>
+                  <p className="text-gray-600 mb-4">{article.excerpt}</p>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-gray-700 font-medium">
                       {article.author}
                     </span>
-                    <Button size="sm" variant="outline">Read More</Button>
+                    <Button size="sm" variant="outline">
+                      Read More
+                    </Button>
                   </div>
                 </div>
               </article>
@@ -244,13 +269,18 @@ export default function PublicationsPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Latest Publications</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Latest Publications
+            </h2>
             <div className="w-24 h-1 bg-blue-600"></div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article) => (
-              <article key={article.id} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
+              <article
+                key={article.id}
+                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow overflow-hidden"
+              >
                 <div className="p-6">
                   <div className="flex items-center gap-4 mb-4 text-sm text-gray-500">
                     <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
@@ -266,10 +296,14 @@ export default function PublicationsPage() {
                   </p>
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-sm text-gray-700 font-medium">{article.author}</p>
+                      <p className="text-sm text-gray-700 font-medium">
+                        {article.author}
+                      </p>
                       <p className="text-xs text-gray-500">{article.date}</p>
                     </div>
-                    <Button size="sm" variant="outline">Read</Button>
+                    <Button size="sm" variant="outline">
+                      Read
+                    </Button>
                   </div>
                 </div>
               </article>
@@ -292,7 +326,8 @@ export default function PublicationsPage() {
             Stay Updated with Legal Insights
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Subscribe to our newsletter for the latest legal developments and industry analysis
+            Subscribe to our newsletter for the latest legal developments and
+            industry analysis
           </p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
@@ -310,7 +345,6 @@ export default function PublicationsPage() {
         </div>
       </section>
 
-
       {/* CTA Section */}
       <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -318,7 +352,7 @@ export default function PublicationsPage() {
             Need Expert Legal Advice?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Our publications provide insights, but every situation is unique. 
+            Our publications provide insights, but every situation is unique.
             Let&apos;s discuss your specific legal needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -328,7 +362,11 @@ export default function PublicationsPage() {
               </Button>
             </Link>
             <Link href="/services">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-gray-900"
+              >
                 Our Services
               </Button>
             </Link>
@@ -336,5 +374,5 @@ export default function PublicationsPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { FastHeader } from "@/components/layout/FastHeader";
 import { FastFooter } from "@/components/layout/FastFooter";
+import { WhatsAppFloat } from "@/components/ui/WhatsAppFloat";
 
 export const metadata: Metadata = {
   title: "TFF Legal - Corporate Lawyer UAE | Legal Services Dubai | Fractional General Counsel",
@@ -67,6 +68,7 @@ export default function RootLayout({
           {children}
         </main>
         <FastFooter />
+        <WhatsAppFloat phoneNumber="971559878888" />
       </body>
     </html>
   );
